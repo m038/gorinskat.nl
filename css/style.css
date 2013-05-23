@@ -1,0 +1,24 @@
+/*[fmt]1A90-1A0A-6*/
+html {
+	background: #000000;
+}
+body {
+	font-family: 'Ubuntu', sans-serif;;
+	font-size: 75%;
+	color: #FFFFFF;
+	text-align: center;
+	height: 100%;
+}
+div.description {
+	vertical-align: middle;
+	margin-top: 400px;
+	line-height: 1.7em;
+}
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #0F4FA8;
+}

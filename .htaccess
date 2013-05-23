@@ -1,0 +1,5 @@
+RewriteEngine On
+
+#RewriteCond %{HTTP_HOST} ^www.(mischa)gorinskat.nl$ [OR]
+RewriteCond %{HTTP_HOST} ^mischagorinskat.nl$
+RewriteRule (.*) http://gorinskat.nl$1 [NC,R=301,L]
